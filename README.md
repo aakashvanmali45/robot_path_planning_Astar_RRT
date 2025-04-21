@@ -2,6 +2,10 @@
 
 This project implements and compares two popular path planning algorithms: **A\*** (Search-Based) and **RRT** (Sampling-Based), for robotic navigation in a 2D environment.
 
+# Tools
+1. Matlab
+2. Navigation Toolbox
+
 ## Project Overview
 
 The core goal of path planning is to determine a **collision-free** and **optimal path** from a **start** to a **goal pose**. Each pose (or **state**) is defined by:
@@ -83,3 +87,9 @@ Initially, the path might not be optimal. To improve:
 ![A* Path without Diagonal Movement](astar_without_diagnal.png)
 ![A* Path with Diagonal Movement](astar_with_diagonal.png)
 ![RRT Tree](RRT_path.png)
+
+
+## Future Scopes
+1. Create an interactive Map editor.
+2. Implement algorithm on Driving Scenario from Navigaiton Toolbox
+3. Add to ROS
